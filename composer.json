@@ -4,7 +4,13 @@
     "type": "magento2-module",
     "license": "proprietary",
     "version": "1.0.0",
-    "authors": "Milan Maniya",
+    "authors": [
+        {
+          "name": "ManiyaTech",
+          "email": "support.maniyatech@gmail.com",
+          "role": "Technical Support"
+        }
+    ],
     "autoload": {
         "files": [
             "registration.php"
