@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ManiyaTech
+ *
+ * @author        Milan Maniya
+ * @package       ManiyaTech_HomepageBannerSlider
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="maniyatech" translate="ManiyaTech Extensions" sortOrder="100" class="maniyatech-extensions-tab">
+            <label>ManiyaTech Extensions</label>
+        </tab>
+    </system>
+</config>

@@ -1,0 +1,40 @@
+/**
+ * ManiyaTech
+ *
+ * @author        Milan Maniya
+ * @package       ManiyaTech_HomepageBannerSlider
+ */
+
+/* Admin menu icon for ManiyaTech core menu */
+#menu-maniyatech-core-core > a::before {
+    content: url('../images/maniyatech.ico');
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* Background styling for submenu groups */
+.admin__menu #menu-maniyatech-core-core .submenu .parent .submenu-group-title {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.admin__menu #menu-maniyatech-core-core .submenu .parent {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Configuration section icon for ManiyaTech tab */
+.maniyatech-extensions-tab .admin__page-nav-title::before {
+    content: '';
+    background-image: url('../images/maniyatech.ico');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 0 0;
+    position: absolute;
+    top: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Adjust spacing for title text */
+.maniyatech-extensions-tab .admin__page-nav-title strong {
+    margin-left: 40px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ManiyaTech
+ *
+ * @author        Milan Maniya
+ * @package       ManiyaTech_HomepageBannerSlider
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ManiyaTech_Core::core" title="ManiyaTech" module="ManiyaTech_Core" sortOrder="50" dependsOnModule="ManiyaTech_Core" resource="ManiyaTech_Core::core" />
+    </menu>
+</config>
