@@ -5,33 +5,44 @@
  * @package       ManiyaTech_Core
  */
 
+@color-green-light: #d0e5a9;
+@color-green-dark: #5b8116;
+@color-green-text: #185b00;
+
+@color-red-light: #f9d4d4;
+@color-red-dark: #e22626;
+@color-red-text: #e22626;
+
+@color-submenu-group-bg: fade(@color-white, 5%);
+@color-submenu-parent-bg: fade(@color-white, 2%);
+
 /* Admin menu icon for ManiyaTech core menu */
 #menu-maniyatech-core-core > a::before {
-    content: url('../images/maniyatech.ico');
+    content: url('@{baseDir}ManiyaTech_Core/images/maniyatech.ico');
     display: inline-block;
     margin-bottom: 5px;
 }
 
 /* Background styling for submenu groups */
 .admin__menu #menu-maniyatech-core-core .submenu .parent .submenu-group-title {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: fade(@color-white, 5%);
 }
 
 .admin__menu #menu-maniyatech-core-core .submenu .parent {
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: fade(@color-white, 2%);
 }
 
 /* Configuration section icon for ManiyaTech tab */
 .maniyatech-extensions-tab .admin__page-nav-title::before {
-    content: '';
-    background-image: url('../images/maniyatech.ico');
+    background-image: url('@{baseDir}ManiyaTech_Core/images/maniyatech.ico');
+    background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    background-position: 0 0;
+    content: '';
+    height: 30px;
     position: absolute;
     top: 6px;
     width: 30px;
-    height: 30px;
 }
 
 /* Adjust spacing for title text */
@@ -39,11 +50,11 @@
     margin-left: 40px;
 }
 
-/* Set Enabled/Disable status color */
+/* Status labels */
 .status-enabled {
-    background: #d0e5a9 none repeat scroll 0 0;
-    border: 1px solid #5b8116;
-    color: #185b00;
+    background: @color-green-light;
+    border: 1px solid @color-green-dark;
+    color: @color-green-dark;
     display: block;
     font-weight: bold;
     line-height: 17px;
@@ -52,10 +63,11 @@
     text-transform: uppercase;
     width: 80px;
 }
+
 .status-disabled {
-    background: #f9d4d4 none repeat scroll 0 0;
-    border: 1px solid #e22626;
-    color: #e22626;
+    background: @color-red-light;
+    border: 1px solid @color-red-dark;
+    color: @color-red-dark;
     display: block;
     font-weight: bold;
     line-height: 17px;
