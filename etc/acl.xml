@@ -19,7 +19,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="ManiyaTech_Core::config" title="ManiyaTech Extension Settings" translate="title" sortOrder="100"/>
+                            <resource id="ManiyaTech_Core::config" title="ManiyaTech Extension Settings" translate="title" sortOrder="10"/>
                         </resource>
                     </resource>
                 </resource>

@@ -2,8 +2,8 @@
 /**
  * ManiyaTech
  *
- * @author  Milan Maniya
- * @package ManiyaTech_Core
+ * @author        Milan Maniya
+ * @package       ManiyaTech_Core
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(

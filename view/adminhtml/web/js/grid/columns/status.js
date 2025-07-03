@@ -1,8 +1,8 @@
 /**
  * ManiyaTech
  *
- * @author  Milan Maniya
- * @package ManiyaTech_Core
+ * @author        Milan Maniya
+ * @package       ManiyaTech_Core
  */
 
 define(
